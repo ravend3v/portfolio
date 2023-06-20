@@ -12,10 +12,10 @@ export default function Navbar() {
     return <header>
         <nav>
             <Link href="/">
-                <a>Home</a>
+                <p>Home</p>
             </Link>
             <Link href="/about">
-                <a>About</a>
+                <p>About</p>
             </Link>
         </nav>
     </header>
