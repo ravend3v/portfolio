@@ -1,7 +1,7 @@
 /* eslint-disable import/no-anonymous-default-export */
 import Image from 'next/image'
 import HeroImg from 'public/hero.jpg'
-import styles from 'header.module.css'
+import styles from '../css/hero.module.css'
 
 const { heroContent, heroWrapper, imageWrapper } = styles
 
