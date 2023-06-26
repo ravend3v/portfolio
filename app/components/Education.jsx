@@ -2,8 +2,8 @@
 import Link from "next/link"
 
 export default function Education () {
-    return <div>
-        <h1 className="text-center text-xl font-bold">
+    return <div id="education">
+        <h1 className="text-xl tracking-widest uppercase text-center">
             Education
         </h1>
         <div className="grid justify-center items-center m-auto">

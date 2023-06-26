@@ -4,6 +4,7 @@ import Footer from "./components/Footer"
 import Hero from "./components/Hero"
 import Projects from "./components/Projects"
 import Education from "./components/Education"
+import Skills from "./components/Skills"
 
 export default function RootLayout({
   children
@@ -19,8 +20,9 @@ export default function RootLayout({
         <Hero />
         <main>
           {children}
-          <Projects />
           <Education />
+          <Projects />
+          <Skills />
         </main>
         <Footer />
       </body>

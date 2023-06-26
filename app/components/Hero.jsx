@@ -17,8 +17,8 @@ export default function Hero() {
         <div className='flex  items-center justify-center h-screen mb-12 bg-fixed bg-center bg-cover custom-img'>
             <div className='absolute top-0 left-0 right-0 bottom-0 bg-black/20 z-[2] mt-[-10rem]' />
                 <div className='p-5 text-white z-[2] mt-[-10rem]'> 
-                    <h2 className='text-5xl py-5 font-bold font-serif'><span className='bg-black px-1'>Im</span> Elias Ojala</h2>
-                    <p className=' text-xl text-center'>A <span className='bg-black px-1'>Fullstack developer</span> </p>  
+                    <h2 className='text-5xl py-5 font-bold font-serif'><span className='text-violet-700 px-1'>Im</span> Elias Ojala</h2>
+                    <p className=' text-2xl text-center'>A <span className='text-violet-700 font-bold font-serif px-1'>Fullstack developer</span> </p>  
                     <div className="flex py-4 space-x-4 justify-center">
                         <Link className="bg-white rounded-xl" target="_blank" href='https://github.com/ImRaven95'>
                             <Image
@@ -40,7 +40,7 @@ export default function Hero() {
                     </div>    
                     <div className='flex items-center justify-center'>
                         <button onClick={() => download(fileUrl, filename)}>
-                            <span className='bg-emerald-600 px-2 py-1 rounded hover:bg-emerald-700'>Resume</span>
+                            <span className='bg-violet-700 px-2 py-1 rounded hover:bg-violet-800'>Resume</span>
                         </button> 
                     </div>  
                 </div>

@@ -45,6 +45,12 @@ export default function Navbar() {
           <li className='px-2 rounded-lg hover:bg-black hover:text-white'>
             <Link href='/#skills'>Skills</Link>
           </li>
+          <li className='px-2 rounded-lg hover:bg-black hover:text-white'>
+            <Link href='/#projects'>Projects</Link>
+          </li>
+          <li className='px-2 rounded-lg hover:bg-black hover:text-white'>
+            <Link href='/#education'>Education</Link>
+          </li>
         </ul>
 
         <div onClick={handleNav} className='block sm:hidden z-10'>
@@ -58,6 +64,12 @@ export default function Navbar() {
               </li>
               <li onClick={handleNav} className='p-4 text-4xl hover:text-gray-500'>
                 <Link href='/#skills'>Skills</Link>
+              </li>
+              <li onClick={handleNav} className='p-4 text-4xl hover:text-gray-500'>
+                <Link href='/#projects'>Projects</Link>
+              </li>
+              <li onClick={handleNav} className='p-4 text-4xl hover:text-gray-500'>
+                <Link href='/#education'>Education</Link>
               </li>
             </ul>
           </div>
