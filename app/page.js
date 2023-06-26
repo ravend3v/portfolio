@@ -1,42 +1,25 @@
-import Image from "next/image";
-import Link from "next/link";
-import Img1 from "../public/hero.jpg";
 
 export default function Home() {
   return (
-      <main className="flex"> 
-        <div className="md:container grid grid-cols-2 gap-5 py-10 md:mx-auto">
-            <div className=" container text-left font-serif p-10">
-                <h1 className=" font-bold ">
-                    Who am I?
-                </h1>
-                <p>
-                  It is a long established fact that a reader will be distracted by the readable content of a 
-                  page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less 
-                  normal distribution of letters, as opposed to using Content here, content here, 
-                  making it look like readable English. Many desktop publishing packages 
-                  and web page editors now use Lorem Ipsum as their default model text, 
-                  and a search for lorem ipsum will uncover many web sites still in their infancy.
-                </p>
+      <main id="who_am_i"> 
+        <div className="flex items-center justify-center p-5">
+            <div className="p-4 max-w-sm rounded overflow-hidden shadow-lg z-[2]">
+                <img className="" src="https://images.unsplash.com/photo-1578589335615-9e804277a5af?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1473&q=80" alt="Sunset in the mountains"/>
+                <div className="px-6 py-4">
+                    <div className="font-bold text-xl mb-2">
+                        Who am I?
+                    </div>
+                      <p className="text-black text-base">
+                        It is a long established fact that a reader will be distracted by the readable content of a 
+                        page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less 
+                        normal distribution of letters, as opposed to using Content here, content here, 
+                        making it look like readable English. Many desktop publishing packages 
+                        and web page editors now use Lorem Ipsum as their default model text, 
+                        and a search for lorem ipsum will uncover many web sites still in their infancy.
+                      </p>
+                </div>
             </div>
-            <div className="flex container p-2 items-center justify-center">
-                <Image
-                    src={Img1}
-                    alt="Picture of the author"
-                    width={500}
-                    height={500}
-                />
-            </div>
-            <div className="flex container p-10">
-                <Image
-                    src={Img1}
-                    alt="Picture of the author"
-                    width={500}
-                    height={500}
-                />
-            </div>
-
-        </div>
+          </div>
       </main>
   );
 }
