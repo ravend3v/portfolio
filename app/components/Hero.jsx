@@ -18,7 +18,7 @@ export default function Hero() {
             <div className='absolute top-0 left-0 right-0 bottom-0 bg-black/20 z-[2] mt-[-10rem]' />
                 <div className='p-5 text-white z-[2] mt-[-10rem]'> 
                     <h2 className='text-5xl py-5 font-bold font-serif'><span className='text-violet-700 px-1'>Im</span> Elias Ojala</h2>
-                    <p className=' text-2xl text-center'>A <span className='text-violet-700 font-bold font-serif px-1'>Fullstack developer</span> </p>  
+                    <p className=' text-2xl text-center'>A Jr.<span className='text-violet-700 font-bold font-serif px-1'>Fullstack developer</span> </p>  
                     <div className="flex py-4 space-x-4 justify-center">
                         <Link className="bg-white rounded-xl" target="_blank" href='https://github.com/ImRaven95'>
                             <Image
