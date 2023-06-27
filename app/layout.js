@@ -1,5 +1,5 @@
 import "./globals.css"
-import { Analytics } from '@vercel/analytics'
+import { Analytics } from '@vercel/analytics/react'
 import Navbar from "./components/Navbar"
 import Footer from "./components/Footer"
 import Hero from "./components/Hero"
