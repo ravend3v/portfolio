@@ -2,9 +2,7 @@
 import React, { useEffect, useState } from 'react';
 import Link from "next/link"
 import ProjectItem from "./ProjectItems.jsx"
-import ProjectImg1 from "public/images/ProjectImg1.png"
-import ProjectImg2 from "public/images/ProjectImg2.jpg"
-import ProjectImg3 from "public/images/ProjectImg3.jpg"
+import ProjectImg1 from "public/images/portfolio.png"
 import Image from 'next/image.js';
 
 
@@ -16,7 +14,7 @@ export default function Projects () {
             <div className='grid md:grid-cols-2 gap-8'>
 
                 <div className='relative flex items-center justify-center h-auto w-full shadow-xl rounded-xl p-4 group hover:bg-gradient-to-r from-[#] to-[#]'>
-                    <Image className='rounded-xl group-hover:opacity-10' src={ProjectImg1} alt='/' />
+                    <Image className='rounded-xl group-hover:opacity-10' src={Project1} alt='/' />
                 </div>
 
             </div>
