@@ -3,7 +3,7 @@ import Image from 'next/image';
 import React, { useEffect, useState } from 'react';
 
 export default function Skills () {
-    return <div>
+    return <div id='skills'>
         <h1 className='text-xl tracking-widest uppercase text-center'>
             Skills
         </h1> 
@@ -17,7 +17,7 @@ export default function Skills () {
                     <div className='p-6 shadow-xl rounded-xl hover:scale-105 ease-in duration-300'>
                         <div className='grid grid-cols-2 gap-4 justify-center items-center'>
                             <div className='m-auto'>
-                                <Image src='/../public/images/next.png'  
+                                <Image src='/../public/static/images/next.png'  
                                 width='64' 
                                 height='64' 
                                 alt='/ '/>
@@ -30,7 +30,7 @@ export default function Skills () {
                     <div className='p-6 shadow-xl rounded-xl hover:scale-105 ease-in duration-300'>
                         <div className='grid grid-cols-2 gap-4 justify-center items-center'>
                             <div className='m-auto'>
-                                <Image src='/../public/images/tailwindcss.png' 
+                                <Image src='/../public/static/images/tailwindcss.png' 
                                 width='64' 
                                 height='64' 
                                 alt='/ '/>
@@ -43,7 +43,7 @@ export default function Skills () {
                     <div className='p-6 shadow-xl rounded-xl hover:scale-105 ease-in duration-300'>
                         <div className='grid grid-cols-2 gap-4 justify-center items-center'>
                             <div className='m-auto'>
-                                <Image src='/../public/images/html.png' 
+                                <Image src='/../public/static/images/html.png' 
                                 width='64' 
                                 height='64' 
                                 alt='/ '/>
@@ -56,7 +56,7 @@ export default function Skills () {
                     <div className='p-6 shadow-xl rounded-xl hover:scale-105 ease-in duration-300'>
                         <div className='grid grid-cols-2 gap-4 justify-center items-center'>
                             <div className='m-auto'>
-                                <Image src='/../public/images/js.png' 
+                                <Image src='/../public/static/images/js.png' 
                                 width='64' 
                                 height='64' 
                                 alt='/ '/>
