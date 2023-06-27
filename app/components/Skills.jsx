@@ -1,14 +1,16 @@
 'use client'
 import Image from 'next/image';
 import React, { useEffect, useState } from 'react';
+import SkillItem from './SkillItem.jsx';
 import htmlimg from 'static/html.png';
 import tailwindimg from 'static/tailwindcss.png';
 import nextimg from 'static/next.png';
 import jsimg from 'static/js.png';
 
+
 export default function Skills () {
     return <div id='skills'>
-        <h1 className='pt:2 text-xl tracking-widest uppercase text-center'>
+        <h1 className='pt-2 text-xl tracking-widest uppercase text-center'>
             Skills
         </h1> 
         <div className='w-full lg:h-screen'>
@@ -18,58 +20,22 @@ export default function Skills () {
                 </p>
                 <div className='grid md:grid-cols-2 lg:grid-cols-4 gap-8'>
 
-                    <div className='p-6 shadow-xl rounded-xl hover:scale-105 ease-in duration-300'>
-                        <div className='grid grid-cols-2 gap-4 justify-center items-center'>
-                            <div className='m-auto'>
-                                <Image src={nextimg}
-                                width='64' 
-                                height='64' 
-                                alt='/ '/>
-                            </div>
-                            <div className='flex flex-col items-center justify-center'>
-                                <h3>Next.js</h3>
-                            </div>
-                        </div>
-                    </div>
-                    <div className='p-6 shadow-xl rounded-xl hover:scale-105 ease-in duration-300'>
-                        <div className='grid grid-cols-2 gap-4 justify-center items-center'>
-                            <div className='m-auto'>
-                                <Image src={tailwindimg} 
-                                width='64' 
-                                height='64' 
-                                alt='/ '/>
-                            </div>
-                            <div className='flex flex-col items-center justify-center'>
-                                <h3>Tailwindcss</h3>
-                            </div>
-                        </div>
-                    </div>
-                    <div className='p-6 shadow-xl rounded-xl hover:scale-105 ease-in duration-300'>
-                        <div className='grid grid-cols-2 gap-4 justify-center items-center'>
-                            <div className='m-auto'>
-                                <Image src={htmlimg} 
-                                width='64' 
-                                height='64' 
-                                alt='/ '/>
-                            </div>
-                            <div className='flex flex-col items-center justify-center'>
-                                <h3>HTML</h3>
-                            </div>
-                        </div>
-                    </div>
-                    <div className='p-6 shadow-xl rounded-xl hover:scale-105 ease-in duration-300'>
-                        <div className='grid grid-cols-2 gap-4 justify-center items-center'>
-                            <div className='m-auto'>
-                                <Image src={jsimg} 
-                                width='64' 
-                                height='64' 
-                                alt='/ '/>
-                            </div>
-                            <div className='flex flex-col items-center justify-center'>
-                                <h3>JavaScript</h3>
-                            </div>
-                        </div>
-                    </div>
+                    <SkillItem 
+                        iconImg={htmlimg} 
+                        title='HTML'
+                    />
+                    <SkillItem
+                        iconImg={tailwindimg}
+                        title='Tailwind CSS'
+                    />
+                    <SkillItem
+                        iconImg={nextimg}
+                        title='Next JS'
+                    />
+                    <SkillItem
+                        iconImg={jsimg}
+                        title='JavaScript'
+                    />
 
                 </div>
             </div>
