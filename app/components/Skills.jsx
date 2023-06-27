@@ -17,7 +17,7 @@ export default function Skills () {
                     <div className='p-6 shadow-xl rounded-xl hover:scale-105 ease-in duration-300'>
                         <div className='grid grid-cols-2 gap-4 justify-center items-center'>
                             <div className='m-auto'>
-                                <Image src='/../public/static/images/next.png'  
+                                <Image src='/../static/next.png' 
                                 width='64' 
                                 height='64' 
                                 alt='/ '/>
@@ -30,7 +30,7 @@ export default function Skills () {
                     <div className='p-6 shadow-xl rounded-xl hover:scale-105 ease-in duration-300'>
                         <div className='grid grid-cols-2 gap-4 justify-center items-center'>
                             <div className='m-auto'>
-                                <Image src='/../public/static/images/tailwindcss.png' 
+                                <Image src='/../static/tailwindcss.png' 
                                 width='64' 
                                 height='64' 
                                 alt='/ '/>
@@ -43,7 +43,7 @@ export default function Skills () {
                     <div className='p-6 shadow-xl rounded-xl hover:scale-105 ease-in duration-300'>
                         <div className='grid grid-cols-2 gap-4 justify-center items-center'>
                             <div className='m-auto'>
-                                <Image src='/../public/static/images/html.png' 
+                                <Image src='/../static/html.png' 
                                 width='64' 
                                 height='64' 
                                 alt='/ '/>
@@ -56,7 +56,7 @@ export default function Skills () {
                     <div className='p-6 shadow-xl rounded-xl hover:scale-105 ease-in duration-300'>
                         <div className='grid grid-cols-2 gap-4 justify-center items-center'>
                             <div className='m-auto'>
-                                <Image src='/../public/static/images/js.png' 
+                                <Image src='/../static/js.png' 
                                 width='64' 
                                 height='64' 
                                 alt='/ '/>
