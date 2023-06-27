@@ -34,7 +34,7 @@ export default function Navbar() {
     <div style={{backgroundColor: `${color}`}} className='fixed left-0 top-0 w-full z-10 ease-in duration-300'>
       <div className='max-w-[1240px] m-auto flex justify-between items-center p-4 text-white'>
         <Link href='/'>
-          <h1 style={{color: `${textColor}`}} className='font-bold text-4xl font-serif'>
+          <h1 style={{color: `${textColor}`}} className='text-xl tracking-widest uppercase text-center'>
               {metadata.title}
           </h1>
         </Link>

@@ -6,6 +6,7 @@ import Hero from "./components/Hero"
 import Projects from "./components/Projects"
 import Education from "./components/Education"
 import Skills from "./components/Skills"
+import Designs from "./components/Designs"
 
 export default function RootLayout({
   children
@@ -22,8 +23,9 @@ export default function RootLayout({
         <main>
           {children}
           <Education />
-          <Projects />
           <Skills />
+          <Projects />
+          <Designs />
           <Analytics />
         </main>
         <Footer />
