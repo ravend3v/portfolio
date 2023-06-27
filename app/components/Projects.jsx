@@ -2,7 +2,7 @@
 import React, { useEffect, useState } from 'react';
 import Link from "next/link"
 import ProjectItem from "./ProjectItems.jsx"
-import project1 from "static/images/portfolio.png"
+import project1 from "static/portfolio.png"
 import Image from 'next/image.js';
 
 
