@@ -2,6 +2,9 @@
 import Image from 'next/image';
 import React, { useEffect, useState } from 'react';
 import htmlimg from 'static/html.png';
+import tailwindimg from 'static/tailwindcss.png';
+import nextimg from 'static/next.png';
+import jsimg from 'static/js.png';
 
 export default function Skills () {
     return <div id='skills'>
