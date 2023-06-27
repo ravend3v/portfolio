@@ -1,6 +1,7 @@
 'use client'
 import Image from 'next/image';
 import React, { useEffect, useState } from 'react';
+import htmlimg from 'static/html.png';
 
 export default function Skills () {
     return <div id='skills'>
@@ -43,7 +44,7 @@ export default function Skills () {
                     <div className='p-6 shadow-xl rounded-xl hover:scale-105 ease-in duration-300'>
                         <div className='grid grid-cols-2 gap-4 justify-center items-center'>
                             <div className='m-auto'>
-                                <Image src='/../static/html.png' 
+                                <Image src={htmlimg} 
                                 width='64' 
                                 height='64' 
                                 alt='/ '/>
