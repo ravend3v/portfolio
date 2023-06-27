@@ -1,4 +1,5 @@
 import "./globals.css"
+import { Analytics } from '@vercel/analytics'
 import Navbar from "./components/Navbar"
 import Footer from "./components/Footer"
 import Hero from "./components/Hero"
@@ -23,6 +24,7 @@ export default function RootLayout({
           <Education />
           <Projects />
           <Skills />
+          <Analytics />
         </main>
         <Footer />
       </body>
