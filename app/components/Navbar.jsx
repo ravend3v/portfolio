@@ -43,13 +43,16 @@ export default function Navbar() {
             <Link href='/#who_am_i'>Who am I?</Link>
           </li>
           <li className='px-2 rounded-lg hover:bg-black hover:text-white'>
+            <Link href='/#education'>Education</Link>
+          </li>
+          <li className='px-2 rounded-lg hover:bg-black hover:text-white'>
             <Link href='/#skills'>Skills</Link>
           </li>
           <li className='px-2 rounded-lg hover:bg-black hover:text-white'>
             <Link href='/#projects'>Projects</Link>
           </li>
           <li className='px-2 rounded-lg hover:bg-black hover:text-white'>
-            <Link href='/#education'>Education</Link>
+            <Link href='/#designs'>Designs</Link>
           </li>
         </ul>
 

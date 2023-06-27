@@ -8,7 +8,7 @@ import jsimg from 'static/js.png';
 
 export default function Skills () {
     return <div id='skills'>
-        <h1 className='text-xl tracking-widest uppercase text-center'>
+        <h1 className='pt:2 text-xl tracking-widest uppercase text-center'>
             Skills
         </h1> 
         <div className='w-full lg:h-screen'>
