@@ -4,7 +4,6 @@ import Navbar from "./components/Navbar"
 import Footer from "./components/Footer"
 import Hero from "./components/Hero"
 import Projects from "./components/Projects"
-import Education from "./components/Education"
 import Skills from "./components/Skills"
 import Designs from "./components/Designs"
 
@@ -22,12 +21,11 @@ export default function RootLayout({
         <Hero />
         <main>
           {children}
-          <Education />
-          <Skills />
-          <Projects />
-          <Designs />
-          <Analytics />
         </main>
+        <Skills />
+        <Projects />
+        <Designs />
+        <Analytics />
         <Footer />
       </body>
     </html>

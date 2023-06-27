@@ -1,25 +1,21 @@
 
 export default function Home() {
   return (
-      <main id="who_am_i"> 
-        <div className="flex items-center justify-center p-5">
-            <div className="p-4 max-w-sm rounded overflow-hidden shadow-lg z-[2]">
-                <img className="" src="https://images.unsplash.com/photo-1578589335615-9e804277a5af?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1473&q=80" alt="Sunset in the mountains"/>
-                <div className="px-6 py-4">
-                    <div className="font-bold font-serif text-xl mb-2">
-                        Who am I?
-                    </div>
-                      <p className="text-black text-base font-serif">
-                        It is a long established fact that a reader will be distracted by the readable content of a 
-                        page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less 
-                        normal distribution of letters, as opposed to using Content here, content here, 
-                        making it look like readable English. Many desktop publishing packages 
-                        and web page editors now use Lorem Ipsum as their default model text, 
-                        and a search for lorem ipsum will uncover many web sites still in their infancy.
-                      </p>
-                </div>
+      <main id="about"> 
+        <div class="flex items-center justify-center">
+          <div class="flex flex-col items-center justify-center bg-white border border-gray-200 rounded-lg shadow-lg md:flex-row md:max-w-xl hover:bg-gray-100 dark:border-gray-800 dark:hover:bg-gray-700">
+            <img class="object-cover w-full rounded-t-lg h-96 md:h-auto md:w-48 md:rounded-none md:rounded-l-lg" src="https://images.unsplash.com/photo-1544005313-94ddf0286df2?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=988&q=80" alt=""/>
+            <div class="flex flex-col justify-between p-4 leading-normal">
+              <h5 class="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">
+                About me
+              </h5>
+              <p class="mb-3 font-normal text-gray-700 dark:text-gray-400">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+              </p>
             </div>
           </div>
+        </div>
+
       </main>
   );
 }
