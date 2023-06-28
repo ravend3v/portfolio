@@ -2,7 +2,6 @@
 import React, { useEffect, useState } from 'react';
 import Link from "next/link"
 import ProjectItem from "./ProjectItems.jsx"
-import project1 from "static/portfolio.png"
 import Image from 'next/image.js';
 
 
@@ -13,11 +12,6 @@ export default function Projects () {
             <h2 className='py-4 text-center'>What I have Made</h2>
             <div className='grid md:grid-cols-2 gap-8'>
 
-                <ProjectItem 
-                    title='Personal Portfolio' 
-                    backgroundImg={project1} 
-                    projectUrl='/portfolio'
-                />
 
             </div>
         </div>
