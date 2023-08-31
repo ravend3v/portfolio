@@ -40,7 +40,7 @@ export default function Hero() {
                     </div>    
                     <div className='flex items-center justify-center'>
                         <button onClick={() => download(fileUrl, filename)}>
-                            <span className='bg-violet-700 px-2 py-1 rounded hover:bg-violet-800'>Resume</span>
+                            <span className='bg-violet-700 px-2 py-1 rounded hover:bg-violet-800'>My Resume</span>
                         </button> 
                     </div> 
                 </div>
