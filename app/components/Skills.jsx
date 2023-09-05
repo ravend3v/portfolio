@@ -14,9 +14,9 @@ export default function Skills () {
             Skills
         </h1> 
         <div className='w-full'>
-            <div className='max-w-[1240px] mx-auto flex flex-col justify-center'>
-                <p className='flex text-xl items-center justify-center'>
-                    What I Can Do 
+            <div className='max-w-[1240px] mx-auto flex flex-col justify-center m-8'>
+                <p className='flex text-xl pb-2 items-center justify-center'>
+                    What Technologies i know and use 
                 </p>
                 <div className='grid md:grid-cols-2 lg:grid-cols-4 gap-8'>
 

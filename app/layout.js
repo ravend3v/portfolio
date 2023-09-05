@@ -7,6 +7,9 @@ import Projects from "./components/Projects"
 import Skills from "./components/Skills"
 import Designs from "./components/Designs"
 
+
+
+
 export default function RootLayout({
   children
 }) {
@@ -17,16 +20,16 @@ export default function RootLayout({
         <meta name="viewport" content="initial-scale=1.0, width=device-width" />
       </head>
       <body className="flex flex-col min-h-screen">
-        <Navbar />
-        <Hero />
-        <main>
-          {children}
-        </main>
-        <Skills />
-        <Projects />
-        <Designs />
-        <Analytics />
-        <Footer />
+          <Navbar />
+          <Hero />
+          <main>
+            {children}
+          </main>
+          <Skills />
+          <Projects />
+          <Designs />
+          <Analytics />
+          <Footer />
       </body>
     </html>
 
