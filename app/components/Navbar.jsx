@@ -24,8 +24,8 @@ export default function Navbar() {
         setColor('#ffffff');
         setTextColor('#000000');
       } else {
-        setColor('transparent');
-        setTextColor('#ffffff');
+        setColor('#EEE2DC');
+        setTextColor('#05386B');
       }
     };
     window.addEventListener('scroll', changeColor);
