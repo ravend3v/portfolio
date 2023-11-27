@@ -24,8 +24,8 @@ export default function Navbar() {
         setColor('#ffffff');
         setTextColor('#000000');
       } else {
-        setColor('#EEE2DC');
-        setTextColor('#05386B');
+        setColor('#0F1625');
+        setTextColor('#FFFFFF');
       }
     };
     window.addEventListener('scroll', changeColor);
@@ -36,16 +36,16 @@ export default function Navbar() {
       <div className='max-w-[1240px] m-auto flex justify-end items-center p-4 text-white'>
   
         <ul style={{color: `${textColor}`}} className='hidden sm:flex space-x-2'>
-          <li className='px-2 rounded-lg hover:bg-black hover:text-white'>
+          <li className='px-2 rounded-lg hover:bg-[#FF5330] hover:text-white'>
             <Link href='/#about'>About</Link>
           </li>
-          <li className='px-2 rounded-lg hover:bg-black hover:text-white'>
+          <li className='px-2 rounded-lg hover:bg-[#FF5330] hover:text-white'>
             <Link href='/#skills'>Skills</Link>
           </li>
-          <li className='px-2 rounded-lg hover:bg-black hover:text-white'>
+          <li className='px-2 rounded-lg hover:bg-[#FF5330] hover:text-white'>
             <Link href='/#projects'>Projects</Link>
           </li>
-          <li className='px-2 rounded-lg hover:bg-black hover:text-white'>
+          <li className='px-2 rounded-lg hover:bg-[#FF5330] hover:text-white'>
             <Link href='/#designs'>Designs</Link>
           </li>
         </ul>

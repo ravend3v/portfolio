@@ -15,10 +15,10 @@ export default function Hero() {
   return (
     <div className='flex items-center justify-center h-screen mb-12 relative'>
       {/* Color half */}
-      <div className='w-1/2 h-full bg-[#EEE2DC] flex items-center justify-center'>
+      <div className='w-1/2 h-full bg-[#F7C83E] flex items-center justify-center'>
         <div className='p-5 text-black z-[2] mt-[-10rem]'>
-          <h2 className='text-5xl py-5 font-bold font-serif'><span className='text-white bg-[#05386B] px-1'>I'm</span> Elias Ojala</h2>
-          <p className='text-2xl text-left'>A <span className='text-white font-bold bg-[#05386B] font-serif px-1'>Full-stack developer</span> </p>
+          <h2 className='text-5xl py-5 font-bold font-serif'><span className='text-white bg-[#0F1625] px-1'>I'm</span> Elias Ojala</h2>
+          <p className='text-2xl text-left'>A <span className='text-white font-bold bg-[#0F1625] font-serif px-1'>Full-stack developer</span> </p>
         </div>
       </div>
 
