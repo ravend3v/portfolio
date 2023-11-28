@@ -10,16 +10,16 @@ import jsimg from 'static/js.png';
 
 export default function Skills () {
     return (
-        <div id='skills' className='bg-[#F78888]'>
-            <h1 className='pt-10 text-xl tracking-widest uppercase text-center'>
+        <div id='skills' className='bg-[#494E6B]'>
+            <h1 className='pt-10 text-xl text-white tracking-widest uppercase text-center'>
                 Skills
             </h1> 
             <div className='w-full'>
                 <div className='max-w-[1240px] mx-auto flex flex-col justify-center m-8'>
-                    <p className='flex text-xl pb-2 items-center justify-center'>
+                    <p className='flex text-xl text-white pb-8 items-center justify-center'>
                         What Technologies i know and use 
                     </p>
-                    <div className='grid md:grid-cols-2 lg:grid-cols-4 gap-8'>
+                    <div className='grid md:grid-cols-2 lg:grid-cols-4 gap-8 pb-10'>
 
                         <SkillItem 
                             iconImg={htmlimg} 
